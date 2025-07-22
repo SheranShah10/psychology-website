@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!------------------------------------------------------------- fonts -------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Federo&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Federo&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!------------------------------------------------------------- Bootstrap Link cdn -------------------------------------------------------------------->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-------------------------------------------------------Nav Bar ------------------------------------------------------------------------------------------>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary navbar-font sticky-top"
+    >
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <span class="navbar-brand mb-1 h1">LOGO</span>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown ms-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Register
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">SignIn</a></li>
+                <li><a class="dropdown-item" href="#">SignUp</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <!---------------------------------------------------------------- Hero Section ------------------------------------------------------------------->
+    <div class="container col-xxl-8 px- py-10">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./Mental health-amico.svg"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="413.24"
+            height="450"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1
+            class="display-5 fw-bold text-body-emphasis lh-1 mb-3 hero_section-font"
+          >
+            You are not <br />
+            alone
+          </h1>
+          <p class="lead">Speak freely, heal deeply your way.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button
+              type="button"
+              class="btn btn-outline-secondary btn-lg px-4 me-md-2"
+            >
+              Chat with AI
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Book a Therapist
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card -->
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom" >Why we are here</h2>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-3 py-3">
+        <div class="col">
+          <div
+            class="card custom-card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('unsplash-photo-1.jpg')"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h3 class="pt-0 mt-0 mb-1 fs-4 lh-1 fw-bold">
+                1 in 3 adults in Pakistan
+              </h3>
+              <p>struggle with a mental health condition at any given time.</p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <!-- <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-1-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"
+                    />
+                  </svg> -->
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Location"
+                  >
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <!-- <small>Pakistan</small> -->
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Duration"
+                  >
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card custom-card  card-cover h-60 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('unsplash-photo-2.jpg')"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h3 class="pt-0 mt-0 mb-1 fs-4 lh-1 fw-bold">
+                Our Youth Are Silently Suffering
+              </h3>
+              <p>
+                1 in 5 young people in Pakistan experience mental health
+                challenges, yet many do not seek help.
+              </p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <!-- <img
+                    src="https://github.com/twbs.png"
+                    alt="Bootstrap"
+                    width="32"
+                    height="32"
+                    class="rounded-circle border border-white"
+                  /> -->
+                  <!-- <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-2-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z"
+                    />
+                  </svg> -->
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Location"
+                  >
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <!-- <small>Pakistan</small> -->
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Duration"
+                  >
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small></small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card  custom-card card-cover h-60 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('unsplash-photo-3.jpg')"
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-0 mt-0 mb-1 fs-4 lh-1 fw-bold">
+                There's Almost No Help Available
+              </h3>
+              <p>
+                Only 0.19 psychiatrists per 100,000 people serve a nation of 240
+                million. Most never get the help they desperately need.
+              </p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <!-- <img
+                    src="https://github.com/twbs.png"
+                    alt="Bootstrap"
+                    width="32"
+                    height="32"
+                    class="rounded-circle border border-white"
+                  /> -->
+                  <!-- <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-3-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1 1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z"
+                    />
+                  </svg> -->
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Location"
+                  >
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <!-- <small>Pakistan</small> -->
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    aria-label="Duration"
+                  >
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>  
+      <p style="text-align: center;">These numbers aren’t just data — they’re people like you and me.  
+       <br> That’s why we built a space to listen, support, and heal.</p>
+    </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
