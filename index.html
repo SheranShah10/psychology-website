@@ -38,7 +38,7 @@
     >
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <span class="navbar-brand mb-1 h1">LOGO</span>
+          <span class="navbar-brand mb-1 h1" >LOGO</span>
         </div>
 
         <button
@@ -72,7 +72,9 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">SignIn</a></li>
-                <li><a class="dropdown-item" href="#">SignUp</a></li>
+                <li>
+                  <a class="dropdown-item" href="./SignUp.html">SignUp</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -128,7 +130,7 @@
 
     <!-- Card -->
     <div class="container px-4 py-5" id="custom-cards">
-      <h2 class="pb-2 border-bottom" >Why we are here</h2>
+      <h2 class="pb-2 border-bottom">Why we are here</h2>
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-3 py-3">
         <div class="col">
           <div
@@ -179,7 +181,6 @@
                   >
                     <use xlink:href="#calendar3"></use>
                   </svg>
-                  
                 </li>
               </ul>
             </div>
@@ -187,7 +188,7 @@
         </div>
         <div class="col">
           <div
-            class="card custom-card  card-cover h-60 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            class="card custom-card card-cover h-60 overflow-hidden text-bg-dark rounded-4 shadow-lg"
             style="background-image: url('unsplash-photo-2.jpg')"
           >
             <div
@@ -252,10 +253,12 @@
         </div>
         <div class="col">
           <div
-            class="card  custom-card card-cover h-60 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            class="card custom-card card-cover h-60 overflow-hidden text-bg-dark rounded-4 shadow-lg"
             style="background-image: url('unsplash-photo-3.jpg')"
           >
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
               <h3 class="pt-0 mt-0 mb-1 fs-4 lh-1 fw-bold">
                 There's Almost No Help Available
               </h3>
@@ -307,18 +310,43 @@
                   >
                     <use xlink:href="#calendar3"></use>
                   </svg>
-                 
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <br>  
-      <p style="text-align: center;">These numbers aren’t just data — they’re people like you and me.  
-       <br> That’s why we built a space to listen, support, and heal.</p>
+      <br />
+      <p style="text-align: center">
+        These numbers aren’t just data — they’re people like you and me.  <br />
+        That’s why we built a space to listen, support, and heal.
+      </p>
     </div>
 
+    <!------------------------------------------------------------- Footer --------------------------------------------------------------------->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <p class="col-md-4 mb-0 text-body-secondary">© 2025 Company, Inc</p>
+      <a
+        href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        aria-label="Bootstrap"
+      >
+        <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+   
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+        </li>
+      </ul>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
